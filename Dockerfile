@@ -1,5 +1,5 @@
 FROM fedora:21
-MAINTAINER "Jason Brooks" <jbrooks@redhat.com>
+MAINTAINER "Sujit Fulse" <sujitfulse@gmail.com>
 
 
 RUN yum update -y; \
