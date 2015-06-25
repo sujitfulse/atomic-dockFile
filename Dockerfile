@@ -1,4 +1,4 @@
-FROM fedora:21
+FROM jcajka/fedora22-ppc64le
 MAINTAINER "Sujit Fulse" <sujitfulse@gmail.com>
 
 
