@@ -2,9 +2,9 @@ FROM jcajka/fedora22-ppc64le
 MAINTAINER "Sujit Fulse" <sujitfulse@gmail.com>
 
 
-RUN yum update -y; \
-yum install -y rpm-ostree httpd git nscd; \
-yum clean all
+RUN dnf update -y; \
+dnf install -y rpm-ostree httpd git nscd; \
+dnf clean all
 
 RUN mkdir -p /home/working; \
 
