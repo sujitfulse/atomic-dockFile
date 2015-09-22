@@ -3,7 +3,7 @@ MAINTAINER "Sujit Fulse" <sujitfulse@gmail.com>
 
 
 RUN dnf update -y; \
-dnf install -y rpm-ostree httpd git nscd; \
+dnf install -y rpm-ostree rpm-ostree-toolbox httpd git nscd; \
 dnf clean all
 
 RUN mkdir -p /home/working; \
